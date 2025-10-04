@@ -8,3 +8,4 @@ section = "_index.md"
 date_format = "%d %b"
 +++
 
+Currently there are no posts.

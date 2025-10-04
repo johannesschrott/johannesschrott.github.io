@@ -44,7 +44,7 @@ menu = [
 #  { url = "$BASE_URL/categories", name = "Categories" },
 #  { url = "$BASE_URL/tags/", name = "Tags" },
 #  { url = "$BASE_URL/", name = "Home" },
-  { url = "$BASE_URL/about/", name = "About" },
+#  { url = "$BASE_URL/about/", name = "About" },
   { url = "$BASE_URL/posts/", name = "Posts" },
 
 ]
@@ -52,7 +52,13 @@ menu = [
 [extra.profiles.johannesschrott]
 name = "Johannes Schrott"
 avatar_url = "photo.jpg"
-bio = "Hi! I am an Computer Scientist based in Austria.<br/><br/>Welcome on my personal webpage about (research) topics as well as personal projects I am working on."
+bio = """
+Hi! I am a computer science PhD student at the
+        <a href="https://dmki-tuwien.github.io">Data Management and Knowledge-Driven AI Lab</a>
+         at
+         <a href="https://tuwien.ac.at">TU Wien</a>.
+         <br/><br/>
+         Welcome on my personal webpage where I will post about (research) topics as well as personal projects."""
 social = [
     { name = "orcid", url = "https://orcid.org/0000-0003-2689-0876"},
     { name = "github", url = "https://github.com/johannesschrott" },
