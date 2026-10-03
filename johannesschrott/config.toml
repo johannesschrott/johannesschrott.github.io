@@ -20,7 +20,7 @@ minify_html = true
 [markdown]
 # Whether to do syntax highlighting
 # Theme can be customised by setting the `highlight_theme` variable to a theme supported by Zola
-highlight_code = true
+#highlight_code = true
 bottom_footnotes = true
 
 
@@ -28,7 +28,7 @@ bottom_footnotes = true
 # Put all your custom variables here
 math = true
 mermaid = true
-comment = true
+comment = false
 title_seperator = " - "
 use_cdn = false
 copyright = "$YEAR Johannes Schrott"
@@ -40,12 +40,12 @@ locale = "en_US"
 
 [extra.menus]
 menu = [
-#  { url = "$BASE_URL/pages/archive/", name = "Archive" },
-#  { url = "$BASE_URL/categories", name = "Categories" },
-#  { url = "$BASE_URL/tags/", name = "Tags" },
-#  { url = "$BASE_URL/", name = "Home" },
-#  { url = "$BASE_URL/about/", name = "About" },
-  { url = "$BASE_URL/posts/", name = "Posts" },
+#  { url = "@base/pages/archive/", name = "Archive" },
+#  { url = "@base/categories", name = "Categories" },
+#  { url = "@base/tags/", name = "Tags" },
+#  { url = "@base/", name = "Home" },
+  { url = "@base/about/", name = "About me" },
+  { url = "@base/posts/", name = "Posts" },
 
 ]
 
@@ -55,6 +55,8 @@ avatar_url = "photo.jpg"
 bio = """
 Hi! I am a computer science PhD student at the
         <a href="https://dmki-tuwien.github.io">Data Management and Knowledge-Driven AI Lab</a>
+         at the
+         <a href="https://informatics.tuwien.ac.at/people/johannes-schrott">Faculty of Informatics</a>
          at
          <a href="https://tuwien.ac.at">TU Wien</a>.
          <br/><br/>
@@ -62,16 +64,12 @@ Hi! I am a computer science PhD student at the
 social = [
     { name = "orcid", url = "https://orcid.org/0000-0003-2689-0876"},
     { name = "github", url = "https://github.com/johannesschrott" },
+#    { name = "codeberg", url = "https://codeberg.org/johannesschrott" },
     { name = "mastodon", url = "https://mastodon.social/@johannesschrott" },
-    { name = "bluesky", url = "https://bsky.app/profile/johannes.schrott.onl" },
+#    { name = "bluesky", url = "https://bsky.app/profile/johannes.schrott.onl" },
     { name = "linkedin", url = "https://linkedin.com/in/johannesschrott"},
-    { name = "rss", url = "$BASE_URL/atom.xml" },
+    { name = "rss", url = "@base/atom.xml" },
 ]
-
-[extra.profiles.johannesschrott.open_graph]
-image = "photo.jpg"
-image_alt = "A photo of Johannes Schrott"
-first_name = "Johannes"
-last_name = "Schrott"
-gender = "male"
+og_image = "photo.jpg"
+og_image_alt = "A photo of Johannes Schrott"
 fediverse_creator = {handle= "johannes", domain="schrott.onl"}
