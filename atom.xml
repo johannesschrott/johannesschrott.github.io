@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="en">
+    <title>Johannes Schrott</title>
+    <link rel="self" type="application/atom+xml" href="https://johannes.schrott.onl/atom.xml"/>
+    <link rel="alternate" type="text/html" href="https://johannes.schrott.onl"/>
+    <generator uri="https://www.getzola.org/">Zola</generator>
+    <updated>2026-09-04T00:00:00+00:00</updated>
+    <id>https://johannes.schrott.onl/atom.xml</id>
+    <entry xml:lang="en">
+        <title>Talk on Graph-Native Normalization at 21st GDC TUC Meeting</title>
+        <published>2026-09-04T00:00:00+00:00</published>
+        <updated>2026-09-04T00:00:00+00:00</updated>
+        
+        <author>
+          <name>johannesschrott</name>
+        </author>
+        
+        <link rel="alternate" type="text/html" href="https://johannes.schrott.onl/posts/2026-09-04-gdc-gnn-talk/"/>
+        <id>https://johannes.schrott.onl/posts/2026-09-04-gdc-gnn-talk/</id>
+        
+        <content type="html" xml:base="https://johannes.schrott.onl/posts/2026-09-04-gdc-gnn-talk/">&lt;p&gt;At the &lt;a rel=&quot;external&quot; href=&quot;https://ldbcouncil.org/event/twenty-first-tuc-meeting/&quot;&gt;21st Twenty-First Graph Data Council Technical User Community Meeting&lt;/a&gt;, co-located with VLDB 2026 in Boston,
+I talked about my research on &lt;a rel=&quot;external&quot; href=&quot;https://doi.org/10.48786/edbt.2027.06&quot;&gt;Graph Native Normalization for Labeled Property Graphs&lt;/a&gt;.&lt;/p&gt;
+&lt;iframe width=&quot;560&quot; height=&quot;315&quot; src=&quot;https://www.youtube-nocookie.com/embed/eO4olgHLpds?si=z4TFHgR3Bf8hC-M3&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&quot; referrerpolicy=&quot;strict-origin-when-cross-origin&quot; allowfullscreen&gt;&lt;/iframe&gt;</content>
+        
+    </entry>
+</feed>
